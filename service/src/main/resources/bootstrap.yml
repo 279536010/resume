@@ -1,0 +1,28 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 127.0.0.1:8848
+  profiles:
+    active: dev
+  application:
+    name: resume
+
+server:
+  port: 8103
+security:
+  oauth2:
+    client:
+      client-id: client
+      client-secret: 123456
+      access-token-uri: http://localhost:8082/oauth/token
+      user-authorization-uri: http://localhost:8082/oauth/authorize
+      scope: read
+      use-current-uri: false
+    resource:
+      user-info-uri: http://localhost:8082/oauth/user
+logging:
+  level:
+    org.spring.springframework: debug
