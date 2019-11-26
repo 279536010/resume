@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"com.nx"})
 @EnableDiscoveryClient
 @EnableResourceServer
 public class ServiceApplication {
