@@ -6,7 +6,6 @@ import com.nx.user.converter.UserConverter;
 import com.nx.user.entity.User;
 import com.nx.user.mapper.UserDao;
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**

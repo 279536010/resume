@@ -1,7 +1,6 @@
 package com.nx.user.controller;
 
 import com.nx.dto.UserDto;
-import com.nx.user.entity.User;
 import com.nx.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
