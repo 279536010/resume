@@ -32,3 +32,6 @@ build/
 /sso/.mvn/
 /.mvn/
 /service/.mvn/
+service/user-info/mvnw
+service/user-info/mvnw.cmd
+service/user-info/.gitignore

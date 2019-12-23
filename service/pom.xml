@@ -5,6 +5,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>user-service</module>
+        <module>user-info</module>
     </modules>
     <parent>
         <groupId>com.nx.resume</groupId>
